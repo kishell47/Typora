@@ -57,34 +57,7 @@
 
 
 
-## 1. 求算法时间复杂度的解题思路
-
-
-
-### 1.1 关注循环条件
-
-
-
-### 1.2 根据循环控制变量确定n的取值
-
-
-
-#### 1.2.1 情况一 n+1
-
-* <img src="https://cvp.oss-cn-shanghai.aliyuncs.com/picgo/202306250641472.png" alt="image-20230625064106330" style="zoom:50%;" />
-  * n从满足`1==i && i< n-1`的第一个条件开始取，即从3开始取
-  * n的取值为：3，4，5，...
-
-
-
-#### 1.2.2 情况二 n^2^
-
-* <img src="https://cvp.oss-cn-shanghai.aliyuncs.com/picgo/202306250726729.png" alt="image-20230625072629626" style="zoom:50%;" />
-  * n从满足`0==y && ((y+1) * (y+1) <=n)`的第一个条件开始取，即从3开始取
-
-
-
-## 2. C运算符优先级
+##  C运算符优先级
 
 
 
@@ -121,3 +94,15 @@
 * `1==i`
 
 * `(1==i)&&(i<(n-1))` 
+
+
+
+## 恶心题目1——恶心到令人发指！！！
+
+* <img src="https://cvp.oss-cn-shanghai.aliyuncs.com/picgo/202306261557659.png" alt="image-20230626155728552" style="zoom:50%;" />
+
+
+
+### 1+(1+2)+(1+2+3)+(1+2+3+4)+......+(1+2+3+4+......+n)
+
+![image-20230626155506751](https://cvp.oss-cn-shanghai.aliyuncs.com/picgo/202306261555977.png)
